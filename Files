@@ -1,0 +1,166 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="java.js"></script>
+    <title>Page of Avocation</title>
+</head>
+<body>
+  
+  <header>
+      <div>
+      <a class="icono-menu"><i class="icon-cog"></i></a>
+      <nav role='navigation'>
+        <ul class="menu-superior">
+          <li><a href="#intro">Home</a></li>
+          <!-- 
+             -->
+          <li><a href="#about">About</a></li>
+          <!-- 
+             -->
+          <li><a href="#portfolio">Portfolio</a></li>
+          <!-- 
+             -->
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="intro" class="intro">
+    <div class="container">
+      <h1>Juanchtech.dev</h1>
+      <h3>I´m front end Developer</h3>
+      
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">Juanchtech.dev - Front end developer</h2>
+      <div id="description" class="description">
+        <p>Soy de Uruguay, desarrollo multiplataforma, diseño web responsivo .</p>
+        <p>Mi pasion por programar nacio como autodidacta y fue creciendo a medida de ir practicando codigo htmml y css.</p>
+        <p>Sobre desarrollo:</p>
+        <p>Lenguajes y bibliotecas</p>
+        <p>JavaScript,HTML5, CSS3,jQuery, Bootstrap3, Angular.js.</p>
+        <p>Herramientas:</p>
+        <p>Git, Diseño web responsivo, Metodologias exactas</p>
+      </div>
+      <div id="avatar" class="avatar">
+        <figure>
+          <img src="https://pbs.twimg.com/profile_images/655463932820328448/vsYaiN9t_400x400.jpg" height="300" width="300" />
+        </figure>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2 class="section-title">Portfolio</h2>
+      <h3 class="section-subtitle">Estos son algunos trabajos hechos ultimamente</h3>
+      <div id="portfolio-items" class="portfolio-items">
+        <div class="portfolio-item">
+          <a class="portfolio-link" target="_blank" href="http://ploceus.es/">
+            <figure>
+              <!-- <iframe src="http://ploceus.es/item-web-ploceus.jpg" width="640" height="480"></iframe> -->
+              <img src="abogado.jpg" class="portfolio-item-img" alt="Ploceus Web - Html5, CSS3 and jQuery" />
+            </figure>
+          </a>
+          <div class="portfolio-caption">
+            <h4>Personal Web Ploceus</h4>
+            <p class="portfolio-intro">Html5, Css3 and jQuery</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <a class="portfolio-link" target="_blank" href="http://librosusa2.ploceus.es/es/">
+            <figure>
+              <img class="portfolio-item-img" src="pexel2.jpg" alt="Shop books LibrosUsa2 - Prestashop" />
+            </figure>
+          </a>
+          <div class="portfolio-caption">
+            <h4>Shop books LibrosUsa2</h4>
+            <p class="portfolio-intro">Prestashop</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <a class="portfolio-link" target="_blank" href="https://fotoscaranton.wordpress.com/">
+            <figure>
+              <img class="portfolio-item-img" src="pexel3.jpg" alt="Portfolio Photograper - Wordpress" />
+            </figure>
+          </a>
+          <div class="portfolio-caption">
+            <h4>Portfolio Fotografía Oscar Antón</h4>
+            <p class="portfolio-intro">Wordpress</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <a class="portfolio-link" target="_blank" href="http://jianfe.comocreartuweb.es/index.php?var=1000">
+            <figure>
+              <img class="portfolio-item-img" src="prog.jpg" alt="Es Maculli - html, php y css" />
+            </figure>
+          </a>
+          <div class="portfolio-caption">
+            <h4>Es Maculli</h4>
+            <p class="portfolio-intro">Html, Css y Php</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <a class="portfolio-link" target="_blank" href="https://goo.gl/XQ1YOL">
+            <figure>
+              <img class="portfolio-item-img" src="5.jpg" alt="CSS Zen GArden - Html y Css" />
+            </figure>
+          </a>
+          <div class="portfolio-caption">
+            <h4>CSS Zen Garden</h4>
+            <p class="portfolio-intro">Html y Css</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <a class="portfolio-link" target="_blank" href="https://goo.gl/lhvYNk">
+            <figure>
+              <img class="portfolio-item-img" src="7.jpg" alt="Portfolio 1" />
+            </figure>
+          </a>
+          <div class="portfolio-caption">
+            <h4>The Goose Game</h4>
+            <p class="portfolio-intro">Html5, Css3 and Javascript</p>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <div class="container">
+  
+      <div class="contact-titles">
+        <h2 class="section-title">El diseño multiplataforma al alcance</h2>
+        <h3 class="section-subtitle">juanchoalcoba@gmail.com</h3></div>
+      <ul class="contact-list-social">
+        <li><a href="#" class="btn-social"><i class="icon-twitter"></i><span>Twitter</span></a></li>
+        <li><a href="https://github.com/juanchoalcoba" class="btn-social"><i class="icon-github"></i><span>Github</span></a></li>
+        <li><a href="https://www.linkedin.com/in/juan-alcoba-a967ba38/" class="btn-social"><i class="icon-linkedin"></i><span>Linkedin</span></a></li>
+        <li><a href="https://www.freecodecamp.com/" class="btn-social"><i class="icon-fire"></i><span>freeCodeCamp</span></a></li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <nav role='navigation'>
+        <ul class="menu menu-footer">
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <p class="copyright">
+        Copyright ® Juanchtech.dev Web 2022.
+      </p>
+    </div>
+  </footer>
+
+
+</body>
+</html>
